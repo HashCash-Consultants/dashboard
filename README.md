@@ -1,5 +1,5 @@
 # HashCash Dashboard
-[![HashCash](https://www.hashcashconsultants.com/img/hashcash-logo-mail.png)](https://www.hashcashconsultants.com/)
+[![HashCash](https://github.com/HashCash-Consultants/dashboard/raw/master/img/hashcash-logo.png)](https://www.hashcashconsultants.com/)
 
 ***Dashboard Setup***
 *Step: 1*
