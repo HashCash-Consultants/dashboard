@@ -2,7 +2,9 @@
 [![HashCash](https://github.com/HashCash-Consultants/dashboard/raw/master/img/hashcash-logo.png)](https://www.hashcashconsultants.com/)
 
 ***Dashboard Setup***
+
 *Step: 1*
+
 Inside ubuntu execute following command:
 ```ssh
 $ sudo apt-get install curl
