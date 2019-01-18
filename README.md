@@ -19,7 +19,9 @@ $ sudo npm install -g forever
 
 >**Note: Code has been modified, hence recommended to download the code from the Dashboard AWS instance from path - /home/ubuntu/dashboard**
 
+
 *Step: 2*
+
 Inside ubuntu/dashboard folder execute following command:
 ```ssh
 $ npm install
