@@ -1,0 +1,308 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);body {
+  background-color: #eeeeee;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial; }
+
+footer {
+  background-color: white;
+  font-size: 0.9em;
+  padding: 15px;
+  -webkit-border-shadow: 0px 0px 20px 2px #dddddd;
+  -moz-border-shadow: 0px 0px 20px 2px #dddddd;
+  border-shadow: 0px 0px 20px 2px #dddddd; }
+
+section {
+  clear: both; }
+  section > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-weight: 600;
+    text-shadow: 1px 1px white;
+    margin-bottom: 0; }
+  section > h2 {
+    color: #999;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-shadow: 1px 1px white;
+    margin: 0 auto 25px auto;
+    width: 60%;
+    line-height: normal; }
+    @media only screen and (max-width: 768px) {
+      section > h2 {
+        width: 90%; } }
+
+.mui-appbar {
+  background-color: #000066; }
+  .mui-appbar .mui--text-headline {
+    margin-left: 20px;
+    float: left; }
+  .mui-appbar a {
+    color: white;
+    text-decoration: none; }
+  .mui-appbar .left {
+    float: left; }
+  .mui-appbar .back {
+    margin-left: 20px;
+    font-size: 0.8em;
+    margin-top: 5px; }
+  .mui-appbar .back a {
+    color: #b3dbfb; }
+  .mui-appbar .icons {
+    float: right;
+    margin-top: 8px;
+    line-height: 15px; }
+    .mui-appbar .icons .icon {
+      float: left;
+      text-align: center;
+      width: 100px; }
+
+.widget-name {
+  text-transform: uppercase; }
+  .widget-name .tag {
+    color: #2196f3;
+    font-size: 0.7em;
+    font-weight: 500;
+    padding-left: 2px; }
+    .widget-name .tag i.material-icons {
+      font-size: 1.1em; }
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+  .widget-name .tag .hide-narrow-panel {
+    display: none; } }
+
+.mui-table.small {
+  font-size: 0.8em;
+  margin-bottom: 0px; }
+
+.chart-labels {
+  font-size: 0.8em; }
+
+.mui-table.small td, .mui-table.small th {
+  padding: 0px; }
+
+.row {
+  clear: both; }
+
+.margin-top10 {
+  margin-top: 10px; }
+
+.small {
+  font-size: 0.8em; }
+
+.gray {
+  color: #bbbbbb; }
+
+.clear {
+  clear: both; }
+
+.api-link {
+  float: right;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  background-color: #5cd6d6;
+  color: white;
+  padding: 2px;
+  font-weight: bold; }
+
+.api-link:hover {
+  color: white;
+  text-decoration: none; }
+
+.api-link:active {
+  color: white;
+  text-decoration: none; }
+
+.amount-column {
+  text-align: right; }
+
+.account {
+  margin-left: 2px; }
+
+.account-tag {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  background-color: #eeeeee;
+  padding: 2px; }
+
+.slick-slider {
+  user-select: initial;
+  -webkit-user-select: initial;
+  -moz-user-select: initial;
+  -ms-user-select: initial; }
+
+@keyframes anim_pulse {
+  0%, 100% {
+    transform: scale(0); }
+  50% {
+    transform: scale(1); } }
+
+.pulse-container {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto; }
+  .pulse-container .pulse {
+    background-color: #2196f3;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0px;
+    left: 0px; }
+    .pulse-container .pulse.pulse1 {
+      animation: anim_pulse 2s ease-in-out 1s infinite both; }
+    .pulse-container .pulse.pulse2 {
+      animation: anim_pulse 2s ease-in-out 0s infinite both; }
+    .pulse-container .pulse.pulse1.slow {
+      animation: anim_pulse 4s ease-in-out 2s infinite both;
+      background-color: orange; }
+    .pulse-container .pulse.pulse2.slow {
+      animation: anim_pulse 4s ease-in-out 0s infinite both;
+      background-color: orange; }
+    .pulse-container .pulse.pulse1.very-slow {
+      animation: anim_pulse 10s ease-in-out 5s infinite both;
+      background-color: red; }
+    .pulse-container .pulse.pulse2.very-slow {
+      animation: anim_pulse 10s ease-in-out 0s infinite both;
+      background-color: red; }
+    .pulse-container .pulse.pulse1.down {
+      animation: anim_pulse 20s ease-in-out 10s infinite both;
+      background-color: black; }
+    .pulse-container .pulse.pulse2.down {
+      animation: anim_pulse 20s ease-in-out 0s infinite both;
+      background-color: black; }
+
+.axis text {
+  font-size: 10px; }
+
+.arc text {
+  font-size: 10px; }
+
+#main.force {
+  background: black; }
+  #main.force h1.may4 {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    text-align: center; }
+  #main.force section > h1 {
+    color: white;
+    text-shadow: none; }
+  #main.force section > h2 {
+    color: white;
+    text-shadow: none; }
+  #main.force a {
+    color: #b20014; }
+  #main.force .mui-appbar {
+    background-color: #7E0010; }
+    #main.force .mui-appbar .icons i {
+      color: white; }
+    #main.force .mui-appbar .icons a {
+      color: white; }
+  #main.force .mui-panel {
+    background-color: #222;
+    color: white; }
+  #main.force .account-tag {
+    background-color: black; }
+  #main.force .tag {
+    color: #b20014; }
+  #main.force .api-link {
+    background-color: #7E0010;
+    color: white; }
+  #main.force .recharts-wrapper {
+    background-color: white; }
+  #main.force footer {
+    background-color: black;
+    color: white; }
+
+@keyframes glow_lime {
+  from {
+    color: lime;
+    box-shadow: 0 0 9px lime; }
+  50% {
+    color: lime;
+    box-shadow: 0 0 50px lime; }
+  to {
+    color: lime;
+    box-shadow: 0 0 9px lime; } }
+
+@keyframes glow_orange {
+  from {
+    color: orange;
+    box-shadow: 0 0 9px orange; }
+  50% {
+    color: orange;
+    box-shadow: 0 0 50px orange; }
+  to {
+    color: orange;
+    box-shadow: 0 0 9px orange; } }
+
+@keyframes glow_red {
+  from {
+    color: red;
+    box-shadow: 0 0 9px red; }
+  50% {
+    color: red;
+    box-shadow: 0 0 50px red; }
+  to {
+    color: red;
+    box-shadow: 0 0 9px red; } }
+
+@keyframes glow_gray {
+  from {
+    color: gray;
+    box-shadow: 0 0 9px gray; }
+  50% {
+    color: gray;
+    box-shadow: 0 0 50px gray; }
+  to {
+    color: gray;
+    box-shadow: 0 0 9px gray; } }
+  #main.force .pulse-container {
+    width: 180px;
+    height: 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px; }
+    #main.force .pulse-container .pulse {
+      opacity: 1;
+      width: 180px;
+      height: 9px;
+      background-color: white; }
+      #main.force .pulse-container .pulse.pulse1 {
+        animation: glow_lime 1.5s linear infinite;
+        box-shadow: 0px 0px 10px, 0px 0px 2px inset;
+        border-top-left-radius: 0;
+        border-top-right-radius: 20px 10px;
+        border-bottom-right-radius: 20px 10px;
+        border-bottom-left-radius: 0; }
+      #main.force .pulse-container .pulse.pulse2 {
+        animation: none;
+        height: 5px;
+        margin-top: 2px;
+        width: 30px;
+        margin-left: -30px;
+        border-right: 1px solid black;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 2px;
+        -webkit-background: linear-gradient(to right, #fff 0%, #999 10%, #fff 20%, #999 30%, #fff 40%, #999 50%, #fff 70%, #999 70%, #fff 80%, #999 90%, #fff 100%);
+        -moz-background: linear-gradient(to right, #fff 0%, #999 10%, #fff 20%, #999 30%, #fff 40%, #999 50%, #fff 70%, #999 70%, #fff 80%, #999 90%, #fff 100%);
+        background: linear-gradient(to right, #fff 0%, #999 10%, #fff 20%, #999 30%, #fff 40%, #999 50%, #fff 70%, #999 70%, #fff 80%, #999 90%, #fff 100%); }
+      #main.force .pulse-container .pulse.pulse1.slow {
+        animation: glow_orange 1.5s linear infinite;
+        background-color: orange; }
+      #main.force .pulse-container .pulse.pulse1.very-slow {
+        animation: glow_red 1.5s linear infinite;
+        background-color: red; }
+      #main.force .pulse-container .pulse.pulse1.down {
+        animation: glow_gray 1.5s linear infinite;
+        background-color: black; }
+
+/*# sourceMappingURL=style.css.map*/
