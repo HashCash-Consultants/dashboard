@@ -22,8 +22,8 @@ $ sudo npm install -g forever
 *Step: 2*
 Inside ubuntu/dashboard folder execute following command:
 ```ssh
-npm install
-gulp
+$ npm install
+$ gulp
 ```
 >**Note:  Add  3000,3001 and 3443 port on AWS instance.**
 
@@ -35,8 +35,8 @@ $ sudo DEV=true NODE_TLS_REJECT_UNAUTHORIZED=0 forever start app.js
 ```
 *In Foreground:*
 ```ssh
-gulp
-sudo DEV=true NODE_TLS_REJECT_UNAUTHORIZED=0 node app.js
+$ gulp
+$ sudo DEV=true NODE_TLS_REJECT_UNAUTHORIZED=0 node app.js
 ```
 
 It will create a proxy to `browser-sync` server started by gulp at:
